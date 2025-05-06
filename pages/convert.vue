@@ -1,7 +1,7 @@
 <template>
 <UContainer class="convert">
   <h2 class="convert__title">Конвертация валют</h2>
-  <div class="convert__row" v-for="(item, index) in form" :key="item.currency">
+  <div v-for="(item, index) in form" :key="item.currency" class="convert__row">
     <USelect v-model="item.currency" :items="Object.values(Currency)" />
     <UInputNumber
         v-model="item.amount"
