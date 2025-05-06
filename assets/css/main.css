@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+h2 {
+    @apply text-xl;
+}
