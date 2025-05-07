@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   ssr: false,
 
   app: {
-    baseURL: '/nuxt-currency-converter/',
+    baseURL: '/',
   },
 
   modules: [
